@@ -78,8 +78,8 @@ document.addEventListener('DOMContentLoaded', dialog()); // pour que la function
     
 function dialog () {
     const dialog = document.getElementById('dialog');                               // une constant 
-    const closeButton = document.getElementById('fermer-dialog');                   // -----
-    const neverShowButton = document.getElementById('ne-plus-afficher');            // -----
+    const closeButton = document.getElementById('fermer-dialog');                   // 
+    const neverShowButton = document.getElementById('ne-plus-afficher');            // 
     const storageKey = 'neverShowDialog';                                           // Bouton pour fermer la fenêtre et enregistrer une préférence pour qu'elle ne s’affiche plus.
 
 
