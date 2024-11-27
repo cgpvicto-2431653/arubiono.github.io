@@ -43,6 +43,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer; /*jai ajouter ca aussi pour faire compredre au joueur quil faut cliquer   */ 
 }
     
     
@@ -53,4 +54,85 @@ h2 {
     height: 55px;
     width: 150px;
     margin: 10px;
+    cursor: pointer; /*jai ajouter ca aussi pour faire compredre au joueur quil faut cliquer   */ 
+}
+
+
+
+
+/*    Cette partie que jai ajouter sert a metre en forme la fenetre de diaologe pour quelle resemble a l'exemple*/
+dialog {
+    border-color: blue;
+    border-width: 1px;
+    padding: 20px 60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: white;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.dialog-row {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.dialog-credit {
+    text-align: left; 
+    margin-right: 20px; 
+}
+
+
+.dialog-content img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+dialog::backdrop {
+    background: rgba(93, 188, 251, 0.5);
+}
+
+b:hover{
+    color: rgb(143, 143, 143);
+    cursor: pointer;
+}
+.dialog-credit a {
+    color: #2723ff; 
+    text-decoration: none; 
+}
+
+.dialog-credit a:hover{
+    color: #007BFF;
+    text-decoration: underline;
+}
+
+#fermer-dialog {
+    background-color: #007BFF; 
+    color: white; 
+    border: none; 
+    padding: 15px 30px; 
+    font-size: 18px; 
+    border-radius: 8px; 
+    cursor: pointer; 
+}
+
+#fermer-dialog:hover {
+    background-color: #0056b3; 
+}
+
+#ne-plus-afficher {
+    display: block; 
+    margin-top: 10px; 
+    color:  rgb(0, 0, 0); 
+    cursor: pointer;
+}
+
+#ne-plus-afficher:hover {
+    color: rgb(143, 143, 143); 
+}
+
+hr {
+    border-top: 1px solid #007BFF; 
+    width: 50%; 
+    margin: auto;
 }
