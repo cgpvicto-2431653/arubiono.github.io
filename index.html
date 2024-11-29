@@ -34,6 +34,7 @@
 
 <body>
     <h1>Tic-Tac-Toe</h1>
+    <div id="score-board" class="flex-container flex-column"></div>
     <h2>C'est au tour de X !</h2>
     <!-- Many websites are just divs on divs on divs. -->
     <div class="flex-container flex-column">
@@ -49,7 +50,10 @@
         <div class="square"></div>
         </div>
         <!-- I added a little reset button because our users are going to want to play round after round of our glorious game without ever refreshing the browser! -->
-        <button id="reset-button">réinitialiser</button>
+        <div id="buttons" >
+            <button id="reset-button">réinitialiser</button>
+            <button id="reset-scores">réinitialiser les scores</button>
+        </div>
     </div>
 </body>
 </html>
