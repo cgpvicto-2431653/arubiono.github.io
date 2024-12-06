@@ -79,8 +79,7 @@ function render() {
 function updateScoreDisplay() {
     const scoreBoard = document.getElementById('score-board');  //pour cree et chamger le tableau des scores
     scoreBoard.innerHTML = `
-        <p>Score de X : ${xWins}</p>
-        <p>Score de O : ${oWins}</p>
+        <p>Score de X : ${xWins} || Score de O : ${oWins}</p>
     `;
 }
 
