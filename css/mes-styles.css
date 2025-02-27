@@ -1,0 +1,53 @@
+i
+{
+    font-size: 2em;
+}
+
+#id_a
+{
+    color: #F5F5DF;
+}
+
+#id_b
+{
+    color: aqua;
+}
+
+#id_c
+{
+    color: darkolivegreen;
+}
+
+#id_d
+{
+    color: #695483;
+}
+
+#id_e
+{
+    color: darkred;
+}
+
+.items .item.first {
+    background: url('../medias/commun/a.jpg');
+    background-size: contain;
+}
+
+.items .item.second {
+    background: url('../medias/commun/b.jpg');
+    background-size: contain;
+}
+
+.items .item.third {
+    background: url('../medias/commun/c.jpg');
+    background-size: contain;
+}
+.items .item.fourth {
+    background: url('../medias/commun/d.jpg');
+    background-size: contain;
+}
+
+.items .item.fifth {
+    background: url('../medias/commun/e.jpg');
+    background-size: contain;
+}
